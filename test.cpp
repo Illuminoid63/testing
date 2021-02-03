@@ -7,7 +7,7 @@
 using namespace std;
 
 void printName(){
-    cout << "Kai Michael Kuebler" << endl;
+    cout << "Kai M. Kuebler" << endl;
 }
 
 int main(int argc, char ** argv) {
