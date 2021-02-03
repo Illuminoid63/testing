@@ -6,11 +6,13 @@
 
 using namespace std;
 
-void printName(){
-    cout << "Kai Kuebler" << endl;
+void printName(int year){
+    int age = year - 2000;
+    cout << "Kai Kuebler ";
+    cout << age << endl;
 }
 
 int main(int argc, char ** argv) {
-    printName();
+    printName(2021);
 	return 0;
 }
